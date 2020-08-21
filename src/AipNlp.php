@@ -435,4 +435,25 @@ class AipNlp extends AipBase {
 
         return $this->request($this->addressUrl, $data);
     }
+
+
+	/**
+	 * @author     :  Wangqs  2020/8/21
+	 * @description:  拓展接口，简单适配其他百度api
+	 */
+    public function requestEx($url,$data=[]){
+
+	    $data = mb_convert_encoding(json_encode($data), 'GBK', 'UTF8');
+
+	    return $this->request($url, $data);
+    }
+
+	/**
+	 * @author     :  Wangqs  2020/8/21
+	 * @description:  获取token认证信息
+	 */
+    public function getAuth(){
+    	return $this->auth();
+    }
+
 }
