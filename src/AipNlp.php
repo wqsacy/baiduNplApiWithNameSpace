@@ -437,6 +437,7 @@ class AipNlp extends AipBase {
     }
 
 
+
 	/**
 	 * @author     :  Wangqs  2020/8/21
 	 * @description:  拓展接口，简单适配其他百度api
