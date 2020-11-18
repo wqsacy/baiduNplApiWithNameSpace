@@ -15,9 +15,9 @@
 	* the License.
 	*/
 
-	namespace Wangqs\Baidu_Npl\Lib;
+	namespace Wangqs\Baidu_Npl\Libs;
 
-	use Wangqs\Baidu_Npl\Lib\AipHttpClient as AipHttpClientAlias;
+	use Wangqs\Baidu_Npl\Libs\AipHttpClient as AipHttpClientAlias;
 
 
 	/**

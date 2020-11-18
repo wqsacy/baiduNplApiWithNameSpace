@@ -15,7 +15,7 @@
 	* the License.
 	*/
 
-	namespace Wangqs\Baidu_Npl\Lib;
+	namespace Wangqs\Baidu_Npl\Libs;
 	/**
 	 * Http Client
 	 */

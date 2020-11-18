@@ -19,7 +19,7 @@
 
 
 
-use Wangqs\Baidu_Npl\Lib\AipBase;
+use Wangqs\Baidu_Npl\Libs\AipBase;
 
 /**
  * 黄反识别

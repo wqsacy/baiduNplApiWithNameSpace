@@ -16,7 +16,7 @@
 */
 	namespace Wangqs\Baidu_Npl;
 
-	use Wangqs\Baidu_Npl\Lib\AipBase;
+	use Wangqs\Baidu_Npl\Libs\AipBase;
 
 class AipFace extends AipBase {
 
