@@ -457,4 +457,5 @@ class AipNlp extends AipBase {
     	return $this->auth();
     }
 
+
 }
